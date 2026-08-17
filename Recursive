@@ -1,0 +1,19 @@
+# Recursive Factorial Function
+def factorial_recursive(n):
+    if n == 0 or n == 1:
+        return 1
+    else:
+        return n * factorial_recursive(n - 1)
+
+
+# Take input
+n = int(input("Enter a number: "))
+
+# Calculate factorial
+result = factorial_recursive(n)
+
+# Display result
+print("Factorial using Recursive Method:", result)
+
+# Enter your EN.No
+print("EN.No:92460118685")
